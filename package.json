@@ -1,0 +1,16 @@
+{
+    "name": "weatherApp",
+    "version": "1.0.0",
+    "description": "Display the weather at your current location and the forcast",
+    "main": "app.js",
+    "author": "Jennifer Kahn",
+    "license": "",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "express": "^4.16.4",
+        "mongod": "^2.0.0",
+        "node": "^10.8.0",
+        "nodemon": "^1.18.10",
+        "weather-js": "^2.0.0"
+    }
+}

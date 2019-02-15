@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title id="title">WeatherWanderer</title>
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAsC8qAP+EAACzh1cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAACAAAAAAAAACAAAAAAAAEiAAAAADAAAiAAAAAAMzAiAAAAAAAAMzAAAAAAAAAiMzMAAAAAAAADAzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+    <p id="madeby">made by <a href="https://jenniferhkahn.com" target="_blank">Jennifer Kahn</a></p>
+    <!-- unsplash image goes here -->
+    <img id = 'weatherPhoto' src="">
+
+    <div class="box">
+        <div class="container-2">
+            <span class="icon"><i class="fa fa-search"></i></span>
+            <input type="search" id="search" placeholder="Search City or ZIP" />
+        </div>
+    </div>
+    <!--  -->
+
+
+    <section>
+        <!-- Dynamically will be filled with the current weather data -->
+        <div class="city-status">
+            <p><span id="status"></span></p>
+            <h2 id="city"></h2>
+        </div>
+        <div class="weather">
+            <h1 id="temperature"><span></span></h1>
+            <ul class="meta">
+                <li class ="feels-like"></li>
+                <li class ="wind"></li>
+                <li class ="humidity"></li>
+            </ul>
+        </div>
+        <!--  -->
+
+        <ul class="forecast">
+            <!-- Dynamically will be filled with three-day forecast data -->
+        </ul>
+    </section>
+    <div id="time"></div>
+
+</body>
+<script src = "app.js"></script>
+
+</html>

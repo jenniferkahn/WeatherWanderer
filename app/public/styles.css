@@ -1,0 +1,270 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i');
+
+html, body{
+    margin:0;
+    height:100vh;
+}
+
+body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    font-size: 1.8rem;
+
+    /* fallback if unsplash fails */
+    background: #212121;
+}
+
+#city {
+    font-weight: 700;
+    font-size: 3.6rem;
+}
+
+#time{
+    position: absolute;
+
+}
+
+.box {
+    position: absolute;
+    top: 4%;
+    right: 4%;
+}
+
+
+.container-2{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+.container-2 input#search{
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, .3);
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: rgba(255, 255, 255, .8);
+    padding-left: 35px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+
+    -webkit-transition: width .55s ease;
+    -moz-transition: width .55s ease;
+    -ms-transition: width .55s ease;
+    -o-transition: width .55s ease;
+    transition: width .55s ease;
+}
+
+.container-2 input#search::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, .6);
+}
+
+.container-2 input#search:-moz-placeholder { /* Firefox 18- */
+    color: rgba(255, 255, 255, .6);
+}
+
+.container-2 input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: rgba(255, 255, 255, .6);
+}
+
+.container-2 input#search:-ms-input-placeholder {
+    color: rgba(255, 255, 255, .6);
+}
+
+.container-2 .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: rgba(255, 255, 255, .6);
+}
+
+.container-2 input#search, .container-2 input#search{
+    outline:none;
+    width: 300px;
+    padding-right: 24px;
+}
+
+.container-2 input#search{
+    width: 300px;
+    padding-left: 48px;
+    padding-right: 24px;
+}
+
+.container-2:hover .icon{
+    color: rgba(255, 255, 255, .8);
+}
+
+.forecast {
+    display: flex;
+    margin-top: 64px;
+}
+
+.forecast li {
+    margin-right: 32px;
+}
+
+.forecast h3 {
+    font-weight: 600;
+}
+
+.forecast p {
+    font-size: 6.4rem;
+    font-weight: 500;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat' ,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(.7);
+}
+
+.meta {
+    font-weight: 700;
+    margin-left: 16px;
+}
+
+.meta li {
+    padding-top: 4px;
+}
+
+#madeby {
+    position: absolute;
+    bottom: 8%;
+    left: 10%;
+    font-size: 1.2rem;
+    text-transform: lowercase;
+    font-weight: 500;
+    color: rgba(255, 255, 255, .6);
+}
+
+#madeby a {
+    color: inherit;
+    font-weight: 600;
+}
+
+section {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+#status {
+    font-weight: 500;
+}
+
+#temperature {
+    font-weight: 700;
+    font-size: 25.6rem;
+    line-height: 80%;
+    margin-top: -40px;
+}
+
+#temperature span {
+    vertical-align: text-top;
+    font-size: 8rem;
+}
+
+.weather {
+    display: flex;
+    align-items: flex-end;
+}
+
+@media all and (max-width: 600px) {
+    body {
+        font-size: 1.6rem;
+    }
+
+    section {
+        left: 6%;
+    }
+
+    #madeby {
+        left: 6%;
+    }
+
+    .meta {
+        margin-left: 8px;
+    }
+}
+
+@media all and (max-width: 540px) {
+    #temperature {
+        font-size: 22rem;
+    }
+
+    #city {
+        font-size: 2.8rem;
+    }
+}
+
+@media all and (max-width: 490px) {
+    .weather {
+        display: block;
+    }
+
+    .meta {
+        display: flex;
+        margin-top: 16px;
+    }
+
+    .meta li {
+        margin-right: 16px;
+    }
+}
+
+@media all and (max-width: 444px) {
+    .meta {
+        display: block;
+        margin-top: 32px;
+    }
+
+    .forecast p {
+        font-size: 5.2rem;
+    }
+
+    .forecast li {
+        margin-right: 16px;
+    }
+}
+
+@media all and (max-width: 340px) {
+    .forecast {
+        display: none;
+    }
+
+    .meta {
+        display: none;
+    }
+
+    section {
+        left: 5%;
+    }
+
+    #madeby {
+        left: 5%;
+    }
+
+    #temperature {
+        font-size: 20rem;
+    }
+}
