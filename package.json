@@ -1,10 +1,9 @@
 {
-    "name": "weatherApp",
+    "name": "weatherWanderer",
     "version": "1.0.0",
-    "description": "Display the weather at your current location and the forcast",
+    "description": "Displays the weather forecast",
     "main": "app.js",
     "author": "Jennifer Kahn",
-    "license": "",
     "dependencies": {
         "body-parser": "^1.18.3",
         "express": "^4.16.4",
