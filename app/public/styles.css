@@ -149,9 +149,9 @@ img {
 
 #madeby {
     position: absolute;
-    bottom: 8%;
-    left: 10%;
-    font-size: 1.2rem;
+    bottom: 10%;
+    left: 80%;
+    font-size: 1.4rem;
     text-transform: lowercase;
     font-weight: 500;
     color: rgba(255, 255, 255, .6);
@@ -198,9 +198,9 @@ section {
         left: 6%;
     }
 
-    #madeby {
+    /* #madeby {
         left: 6%;
-    }
+    } */
 
     .meta {
         margin-left: 8px;
