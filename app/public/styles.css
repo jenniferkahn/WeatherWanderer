@@ -149,12 +149,12 @@ img {
 
 #madeby {
     position: absolute;
-    bottom: 10%;
-    left: 80%;
-    font-size: 1.4rem;
-    text-transform: lowercase;
+    bottom: 7%;
+    left: 10%;
+    font-size: 1.8rem;
+    text-transform:  uppercase;
     font-weight: 500;
-    color: rgba(255, 255, 255, .6);
+    color: white;
 }
 
 #madeby a {
