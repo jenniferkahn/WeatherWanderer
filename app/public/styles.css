@@ -155,11 +155,11 @@ img {
 
 #madeby {
     position: absolute;
-    bottom: 7%;
-    left: 10%;
-    font-size: 1.7rem;
-    text-transform:  capitalize;
-    font-weight: 500;
+    bottom: 5%;
+    left: 5%;
+    font-size: 1.5rem;
+    text-transform:  uppercase;
+    /* font-weight: 500; */
      color: rgba(255, 255, 255, .8);
 }
 
