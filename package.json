@@ -2,10 +2,11 @@
     "name": "weatherApp",
     "version": "1.0.0",
     "description": "Display the weather at your current location and the forecast",
-    "main": "app.js",
+    "main": "server.js",
     "author": "Jennifer Kahn",
     "license": "",
     "dependencies": {
+        "ajv": "^6.12.3",
         "body-parser": "^1.18.3",
         "express": "^4.16.4",
         "mongod": "^2.0.0",
