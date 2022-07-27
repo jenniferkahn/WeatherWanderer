@@ -1,5 +1,5 @@
 {
-    "name": "weatherApp",
+    "name": "weatherwanderer",
     "version": "1.0.0",
     "description": "Display the weather at your current location and the forecast",
     "main": "app.js",
