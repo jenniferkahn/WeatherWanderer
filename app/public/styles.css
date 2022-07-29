@@ -156,7 +156,7 @@ img {
 #madeby {
     position: absolute;
     bottom: 2%;
-    left: 10%;
+    left: 2%;
     font-size: .6rem;
     text-transform:  uppercase;
     /* font-weight: 500; */
@@ -266,9 +266,9 @@ section {
         left: 5%;
     }
 
-    #madeby {
-        left: 10%;
-    }
+    /* #madeby {
+        left: 2%;
+    } */
 
     #temperature {
         font-size: 20rem;
