@@ -56,7 +56,7 @@ function getWeatherPhoto(weatherType) {
     if (weatherType == "T-Storms") {
         weatherType = "thunderstorm"
     }
-    client_id = "AAODXtCT6bwi_2M0Vsw99DeWVOP25G0mzkRV8MxiNXM";
+    client_id = "8bfc6dcba2eee8b7cc53b56bf1013b34d92fa8909f414eda9ea9c57dec0cba5f";
     $.get(`https://api.unsplash.com/photos/random?orientation=landscape&per_page=1&query=${weatherType}&client_id=${client_id}`, function (data) {
         $()
         console.log(data.urls.regular)
@@ -123,3 +123,4 @@ function updateWeather() {
         getWeatherPhoto(weatherType);
     });
 }
+
